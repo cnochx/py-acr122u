@@ -2,7 +2,9 @@ import smartcard.System
 from smartcard.util import toHexString
 from smartcard.ATR import ATR
 
-from src import utils, option, error
+from src import utils
+from src import option
+from src import error
 
 
 class Reader:
